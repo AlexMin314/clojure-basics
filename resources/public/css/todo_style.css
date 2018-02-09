@@ -1,0 +1,33 @@
+/* todo CSS */
+
+#app {
+  display: flex;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1 1 100px;
+}
+
+#positive {
+  color: blue;
+}
+
+#negative {
+  color: red;
+}
+
+#memory-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 11;
+}
+
+.memory-item {
+  margin: 5px;
+  padding: 0 10px;
+  background-color: rgb(231, 231, 231);
+}
